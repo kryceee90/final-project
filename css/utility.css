@@ -1,0 +1,37 @@
+/* 클리어 픽스 */
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+  } 
+  
+/* 숨김처리 */
+.blind {
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+  }
+
+  /* 줄간격 */
+.lh { line-height: 1.7 !important;}
+
+/* bold */
+.b200 {font-weight: 200;}
+.b400 {font-weight: 400;}
+.b700 {font-weight: 700;}
+.b800 {font-weight: 800;}
+.b900 {font-weight: 900;}
+
+/* font-color */
+.tc1 { color: #222 !important; }
+.tc2 { color: #777 !important; }
+.tc3 { color: #fff !important; }
+.tc4 { color: #d50037 !important; }
+
+/* btn */
+.btn:hover {
+    border-color: currentColor; color: #777; 
+  }

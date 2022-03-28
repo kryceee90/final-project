@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투썸플레이스</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  
+    <!-- My css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiveTablet.css">
+    <link rel="stylesheet" href="css/responsiveMobile.css">
+    <!--fontawsom  -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  
+    <!-- slick -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  
+    <!-- scrollmagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+
+    <!-- script -->
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.imgBox-img').src=anything;
+        }
+
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+
+        
+    </script>
+</head>
+<body>
+    <!-- header---------------------------------->
+    <header class="header">
+        <!-- mobile-bar -->
+        <div class="header-bar">
+            <h1 class="logo2"><a href="index.html"><img src="images/favlogo.png" alt=""></a></h1>
+            <div class="seachbox">
+                <div id="seachbox-wrap">
+                    <form action="" autocomplete="on">
+                    <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+                    </form>
+                  </div>
+            <!--header-menu  -->
+            <div class="header-menu">
+                <div class="menu-container">
+                    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+                    
+                    <div class="hamburger-icon">
+                      <label for="openmenu" id="hamburger-label">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </label>    
+                    </div>
+                      <div class="menu-pane">
+                        <nav>
+                          <ul class="menu-links">   
+                            <li><a href="###">투썸플레이스</a></li>                         
+                            <li><a href="###">메뉴이야기</a></li>
+                            <li><a href="###">브랜드 지원</a></li>
+                            <li><a href="###">가맹점 창업안내</a></li>
+                            <li><a href="###">가맹점 개설안내</a></li>
+                            <li><a href="###">새소식 & 공지</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                  </div>
+            </div>
+            </div>
+        </div>
+        <!-- nav-bg -->
+        <div class="nav-bg">
+            <h1 class="logo"><a href="index.html"><img src="images/logo_black.png" alt=""></a></h1>
+            <!-- navigation -->
+            <nav class="navigation">
+                <h2 class="blind">main menu</h2>
+                <ul class="main">
+                    <li>
+                        <span class="title"><a href="#visual"> 투썸플레이스</a></span>
+                        <ul class="sub">
+                            <li><a href="#">투썸플레이스</a></li>
+                            <li class="b200"><a href="#">비전체계</a></li>
+                            <li class="b200"><a href="#">연혁</a></li>
+                            <li><a href="#">매장</a></li>
+                            <li class="b200"><a href="#">DT/DI</a></li>
+                            <li><a href="#">브랜드 브로슈어</a></li>
+                        </ul>
+                    </li>
+                    <!-- 1 -->
+                    <li>
+                        <span class="title"><a href="#menu-story"> 메뉴이야기</a></span>
+                        <ul class="sub">
+                            <li><a href="#">커피이야기</a></li>
+                            <li><a href="#">디저트이야기</a></li>
+                            <li><a href="#">델리이야기</a></li>
+                        </ul>
+                    </li>
+                    <!-- 2 -->
+                    <li>
+                        <span class="title"><a href="#a-list">상품 브랜드</a> </span>
+                        <ul class="sub">
+                            <li><a href="#">투썸플레이스 앱 소개</a></li>
+                            <li><a href="#">투썸플레이스 멤버십</a></li>
+                            <li><a href="#">멤버십 소개</a></li>
+                            <li><a href="#">등급 및 혜택</a></li>
+                        </ul>
+                    </li>
+                    <!-- 3 -->
+       
+                    <li>
+                        <span class="title"><a href="#brand-support">브랜드 지원</a> </span>
+                        <ul class="sub">
+                        <li><a href="#">로스팅 플랜트</a></li>
+                        <li><a href="#">디저트 플랜트</a></li>
+                        <li><a href="#">C&D센터</a></li>
+                        <li><a href="#">SEP센터</a></li>
+                        </ul>
+                    </li>
+                    <!-- 4 -->
+                    <li>
+                        <span class="title"><a href="#franchise">가맹점 개설안내</a> </span>
+                        <ul class="sub">
+                            <li><a href="#">가맹점 개설 안내</a></li>
+                            <li><a href="#">창업설명회</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">가맹점 전용 금융상품</a></li>
+                        </ul>
+                    </li>
+                    <!-- 5 -->
+                    <li>
+                        <span class="title"><a href="#sns">새소식 & 공지</a> </span>
+                        <ul class="sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">보도자료</a></li>
+                        </ul>
+                    </li>
+                    <!-- 6-->
+                </ul>
+            </nav>
+            
+        </div>
+ 
+    </header>
+    <!-- visual ---------------------------------->
+    <div class="visual" id="visual">
+        <video width="100%" height="1080" class="bg-video" muted loop autoplay>
+            <source src="video/video-bg.mp4" type="video/mp4">
+            <source src="video/video-bg.ogg" type="video/ogg">
+          </video>
+    </div>
+    <!-- visual-slick--------------------------------->
+    <div class="visual-slick">
+        <div class="cd-slider">
+            <ul>
+              <li>
+                <div class="image"><img src="images/mobileimg1.jpg"></div>
+              </li>
+              <li>
+                <div class="image"><img src="images/mobileimg2.jpg"></div>
+              </li>
+              <li>
+                <div class="image"><img src="images/mobileimg3.jpg"></div>
+              </li>
+              <li>
+                <div class="image"><img src="images/mobileimg4.jpg"></div>
+              </li>
+              <li>
+                <div class="image"><img src="images/mobileimg5.jpg"></div>
+              </li>      
+            </ul>
+          </div> <!--/.cd-slider-->
+    </div>
+    <!-- S: doc-bar ---------------------------------->
+     <div class="doc-bar">
+  
+     </div>  
+     <div class="mobile-bar">
+         <din class="mobile-bar-inner inner">
+             <ul>
+                 <li>
+                    <a href="#"></a><img src="images/mobile-icon-sale.png" alt="">
+                     <p>sale</p>
+                </li>
+                <li>
+                    <a href="#"></a><img src="images/mobile-icon-order.png" alt="">
+                    <p>order</p>
+                </li>
+                 <li>
+                    <a href="#"></a><img src="images/mobile-icon-ticket.png" alt="">
+                     <p>coupon</p>
+                </li>
+                 <li>
+                    <a href="#"></a><img src="images/mobile-icon-shop.png" alt="">
+                     <p>shop</p>
+                 </li>
+             </ul>
+         </din>
+     </div>
+    <!-- container---------------------------------->
+    <div class="container">
+        <section class="menu-story" id="menu-story">
+            <div class="circle">circle</div>
+            <div class="menu-story-bg inner">
+         <div class="tab-body">
+            <div id="tab-1" class="menu-story-title tab-content current lineUp">
+                <h2 class="lineUp">MENU STORY</h2>
+                <h3 >TWOSOME COFFEE STORY</h3>
+                <p class="lh">투썸플레이스 큐그레이더(Q-Grader)는 좋은 산지의 신선한 원두만을 선별해 각각 다른 개성의 세가지 블렌드를 제공합니다. 원두 타입별 최적의 밸런스를 맞춘 로스팅 포인트, 최상의 에스프레소 추출 기술이 더해져 투썸플레이스만의 커피가 완성됩니다.</p>
+                <a href="#" class="button-effect1">Learn More</a>
+            </div>
+            <div id="tab-2" class="menu-story-title tab-content  lineUp">
+                <h2 class="lineUp">MENU STORY</h2>
+                <h3>TWOSOME DESSERT STORY</h3>
+                <p class="lh">유러피언 디저트의 본질을 추구한 고급 원재료와 차별화된 레시피를 더한 프리미엄 케이크, 트렌디한 감각과 스타일로 새로운 즐거움을 주는 스몰 디저트까지 투썸플레이스의 자부심이 담긴 다양한 디저트를 만나볼 수 있습니다.</p>
+                <a href="#" class="button-effect2">Learn More</a>
+            </div>
+            <div id="tab-3" class="menu-story-title tab-content  lineUp">
+                <h2 class="lineUp">MENU STORY</h2>
+                <h3>TWOSOME DELI STORY</h3>
+                <p class="lh">고객의 다양한 TPO를 대응하는 샌드위치, 샐러드, 베이커 등 가벼운 식사 메뉴부터 간편하게 즐기는 그랩앤고(Grab&go)까지 고객의 라이프스타일에 맞춰 준비한 투썸플레이스의 델리는 커피와 함께여서 더욱 매력적입니다.</p>
+                <a href="#" class="button-effect3">Learn More</a>
+            </div>
+        </div>
+            <div class="imgBox fade lineUp">
+                <img src="images/img1.png" class="imgBox-img lineUp">
+            </div>
+            <ul class="thumb inner lineUp ">
+                <li class="tab-link" data-tab="tab-1"><img src="images/thumb3.png" onclick="imgSlider('images/img1.png');changeCircleColor('#ff9d60')"></li>
+                <li class="tab-link" data-tab="tab-2"><img src="images/thumb2.png"  onclick="imgSlider('images/img2.png');changeCircleColor('#f282a8')"></li>
+                <li class="tab-link" data-tab="tab-3"><img src="images/thumb1.png"  onclick="imgSlider('images/img3.png');changeCircleColor('#bc9e8a')"></li>
+            </ul>
+        </div>
+        </section>
+        <section class="mobile-menu-story inner">
+            <h2 class="lineUp">MENU STORY</h2>
+            <div class="card card1">
+                <div class="imgBx">
+                  <img src="images/img1.png">
+                </div>
+                <div class="contentBx">
+                  <h2>TWOSOME<br> COFFEE STORY</h2>
+                  <div class="size">
+                    <span>내 취향이 담긴 커피, 투썸플레이스에는
+                        내 취향을 담아 섬세하게 만든
+                        나만의 커피가 있습니다.</span>
+                  </div>
+                  <a href="#" class="button-effect button-effect1">Learn More</a>
+                </div>
+              </div>
+              <div class="card card2">
+                <div class="imgBx">
+                  <img src="images/img2.png">
+                </div>
+                <div class="contentBx">
+                  <h2>TWOSOME <br>DESSERT STORY</h2>
+                  <div class="size">
+                    <span>투썸플레이스의 다양한
+                        프리미엄 케이크&디저트를
+                        만나보세요.</span>
+                  </div>
+                  <a href="#" class="button-effect button-effect2">Learn More</a>
+                </div>
+              </div>
+              <div class="card card3">
+                <div class="imgBx">
+                  <img src="images/img3.png">
+                </div>
+                <div class="contentBx">
+                  <h2>TWOSOME<br> DELI STORY</h2>
+                  <div class="size">
+                    <span>커피와 함께여서 더욱 매력적인
+                        ‘트렌디 카페 밀(Trendy Café Meal)’ 컨셉의 델리</span>
+                  </div>
+                  <a href="#" class="button-effect button-effect3">Learn More</a>
+                </div>
+              </div>
+        </section>
+        <section class="a-list" id="a-list">
+            <div class="a-list-banner">
+                <div class="a-list-banner-bg">
+                    <div class="package">
+                        <ul class="package-group">
+                             <li><img src="#" alt=""><img src="images/alist4.png" alt=""></li>
+                             <li><img src="#" alt=""><img src="images/alist5.png" alt=""></li>
+                             <li><img src="#" alt=""><img src="images/alist6.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <ul class="banner-bg-group">
+                        <li class="banner-bg banner-bg1">
+                            <img src="images/alist1.jpg" alt="">
+                        </li>
+                        <li class="banner-bg banner-bg2">
+                            <img src="images/alist2.jpg" alt="">
+                        </li> 
+                        <li class="banner-bg banner-bg3">
+                            <img src="images/alist3.jpg" alt="">
+                        </li> 
+                      </ul>
+                      <div class="a-list-text">
+                          <div class="a-list-text-group">
+                              <ul>
+                                  <li>A-LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE</li>
+                                  <li>A-LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE</li>
+                                  <li>A-LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE . LIST COFFEE . A-LIST COFFEE . A-LIST COFFEE</li>
+ 
+                              </ul>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <div class="a-list-product">
+                <div class="a-list-product-wrap">
+                      <div class="carousel">
+                        <div>
+                            <div class="product-card">
+                                <div class="card-header">
+                                  <img src="images/alist-img1.jpg">
+                                </div>
+                                <div class="card-body">
+                                  <div class="card-content">
+                                    <h4 class="card-title">에이리스트 요거트 파우더</h4>
+                                    <div class="card-text">
+                                      <p>800g</p><span>13,980원</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>    
+                        <div>
+                            <div class="product-card">
+                                <div class="card-header">
+                                  <img src="images/alist-img2.jpg">
+                                </div>
+                                <div class="card-body">
+                                  <div class="card-content">
+                                    <h4 class="card-title">에이리스트 그린티 파우더</h4>
+                                    <div class="card-text">
+                                      <p>320g</p><span>11,980원</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="product-card">
+                            <div class="card-header">
+                              <img src="images/alist-img3.jpg">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-content"><h4>에이리스트 요거트 파우더</h4>
+                                <div class="card-text">
+                                  <p>320g</p><span>11,980원</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>  
+                        </div>
+                        <div>
+                             <div class="product-card">
+                                <div class="card-header">
+                                  <img src="images/alist-img4.jpg">
+                                </div>
+                                <div class="card-body">
+                                  <div class="card-content">
+                                    <h4 class="card-title">에이리스트 밀크티 파우더</h4>
+                                    <div class="card-text">
+                                      <p>320g</p><span>11,980원</span>
+                                    </div>
+                                 </div>
+                               </div>
+                            </div> 
+                          </div>
+                     <!-- box4 -->
+                     <div>
+                        <div class="product-card">
+                            <div class="card-header">
+                              <img src="images/alist-img5.png">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-content">
+                                <h4 class="card-title">투썸x슈피겐 한정판 핸드폰케이스세트</h4>
+                                <div class="card-text">
+                                  <p>옵션당 최소 1개</p><span>9,900원</span>
+                                </div>
+                             </div>
+                           </div>
+                         </div> 
+                     </div>
+                              <!-- box5 -->
+                              <div>
+                                <div class="product-card">
+                                    <div class="card-header">
+                                      <img src="images/alist-img6.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                      <div class="card-content">
+                                        <h4 class="card-title">투썸플레이스 클린키트</h4>
+                                        <div class="card-text">
+                                          <p>옵션당 최소 1개</p><span>21,600원</span>
+                                        </div>
+                                     </div>
+                                   </div>
+                              </div> 
+                         </div>
+                             <!-- box6 -->
+                             <div>
+                                <div class="product-card">
+                                    <div class="card-header">
+                                      <img src="images/alist-img7.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                      <div class="card-content">
+                                        <h4 class="card-title">투썸 DT 텀블러</h4>
+                                        <div class="card-text">
+                                          <p>에이리스트스틱커피</p><span>31,080 원</span>
+                                        </div>
+                                     </div>
+                                   </div>
+                              </div> 
+                         </div>
+                             <!-- box7 -->
+                             <div>
+                                <div class="product-card">
+                                    <div class="card-header">
+                                      <img src="images/alist-img8.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                      <div class="card-content">
+                                        <h4 class="card-title">투썸 스테인레스</h4>
+                                        <div class="card-text">
+                                          <p>텀블러 591ml</p><span>24,450 원</span>
+                                        </div>
+                                     </div>
+                                   </div>
+                              </div> 
+                         </div>
+                             <!-- box8 -->
+                        <div>
+                        </div>
+                        <div>
+                        </div>    
+                      </div>
+                      </div>
+            </div>
+        </section>
+        <section class="brand-support" id="brand-support">
+            <div class="brand-support-title">
+                <div class="brand-support-text">
+                    <div class="brand-support-group brand-support-group1">
+                        <ul>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                
+                        </ul>
+                    </div>
+                    <div class="brand-support-group brand-support-group2">
+                        <ul>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                            <li>BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT . BRAND SUPPORT. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-box-group inner">
+            <div class="brand-box-group-bg inner">
+                <div class=" brand-box-group-card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="brand-box-img">
+                            <img src="images/bs_coffeebean.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 로스팅 <span>플랜트</span></h3>
+                            <p class="lh">원두 로스팅부터 고객의 손에 들리는
+                                한 잔의 커피까지, 최고의 커피 품질을
+                                만듭니다</p>
+                            <a href="#">click</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 -->
+                <div class=" brand-box-group-card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="brand-box-img">
+                            <img src="images/bs_cake.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> 디저트 <span>플랜트</span> </h3>
+                            <p class="lh">최고의 맛과 품질을 자랑하는
+                                투썸플레이스의 디저트를 만듭니다.</p>
+                            <a href="#">click</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class=" brand-box-group-card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="brand-box-img">
+                            <img src="images/bs_idea.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> C&D <span>센터</span></h3>
+                            <p class="lh"> 창의성을 바탕으로 고부가가치 제품
+                                개발과 원가경쟁력을 갖춘 제품 체계를
+                                만들어 고객의 만족도를 높이고,
+                                더욱 투썸플레이스답게 만들어주는
+                                곳입니다.</p>
+                            <a href="#">click</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class=" brand-box-group-card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="brand-box-img">
+                            <img src="images/bs_service.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3> SEP <span>센터</span></h3>
+                            <p class="lh">투썸플레이스 SEP센터는 브랜드 가치를
+                                만들어 내는 전문가 육성 센터입니다.</p>
+                            <a href="#">click</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                 </div>
+            </div>
+        </section>
+        <section class="mobile-brand-support">
+          <div class="mobile-brand-support-bg">
+            <h2>BRAND SUPPORT</h2>
+            <div class="mbs-box-group">
+              <ul>
+                <li><img src="images/bs_coffeebean.png" alt="">
+                  <h4>로스팅 플랜트</h4>
+                  <p>원두 로스팅부터 고객의 손에 들리는
+                    한 잔의 커피까지, 최고의 커피 품질을
+                    만듭니다.</p>
+                  <a href="#">click</a>
+                </li>
+                <li><img src="images/bs_cake.png" alt="">
+                  <h4>디저트 플랜트</h4>
+                  <p>최고의 맛과 품질을 자랑하는
+                    투썸플레이스의 디저트를 만듭니다.</p>
+                  <a href="#">click</a>
+                </li>
+                <li><img src="images/bs_idea.png" alt="">
+                  <h4>C&D센터</h4>
+                  <p>창의성을 바탕으로 고부가가치 제품
+                    개발과 원가경쟁력을 갖춘 제품 체계를
+                    만들어 고객의 만족도를 높이고,
+                    더욱 투썸플레이스답게 만들어주는
+                    곳입니다.</p>
+                  <a href="#">click</a>
+                </li>
+                <li><img src="images/bs_service.png" alt="">
+                  <h4>SEP센터</h4>
+                  <p>투썸플레이스 SEP센터는 브랜드 가치를
+                    만들어 내는 전문가 육성 센터입니다.</p>
+                  <a href="#">click</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="franchise" id="franchise">
+            <div  class="franchise-bg">
+                <div class="franchise-group inner">
+                     <a href="#" class="franchise-img franchise-img1"><img src="images/franchise1.jfif" alt=""></a>
+                     <a href="#" class="franchise-img franchise-img2"><img src="images/franchise2.jfif" alt=""></a>
+                     <a href="#" class="franchise-img franchise-img3"><img src="images/franchise3.jfif" alt=""></a>
+                     <a href="#" class="franchise-img franchise-img4"><img src="images/franchise4.jfif" alt=""></a>
+                     <a href="#" class="franchise-img franchise-img5"><img src="images/franchise5.jfif" alt=""></a>
+               </div>
+           </div>
+           <div class="franchise-txt">
+           <h2 class="tc3 lineUp">FRANCHISE</h2>
+           <p class="lh tc3 lineUp">좋은 커피를 마셔야 비로소 하루가 시작되는 느낌이라면 하루에도 몇 번씩 
+               그윽한 커피 향이 생각난다면 마음속 우선순위에 언제나 커피가 있는 
+               당신이라면 잊지 말고 챙겨야 할 단 하나의 리스트, 투썸플레이스 에이리스트.</p>
+           </div>
+           <div class="franchise-btn lineUp">
+               <a href="#"><span>창업안내 바로가기</span></a>
+               <a href="#"><span>가맹상담 신청</span></a>
+           </div>
+       </section>
+       <section class="sns " id="sns">
+        <div class="sns-title">
+            <div class="sns-text">
+                <div class="sns-group">
+                    <ul>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                        <li>SNS . SNS .SNS . SNS. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sns-bg">
+        <div class="img-group inner">
+        <img src="images/ts1.jpg" alt="">
+        <img src="images/ts2.jpg" alt="">
+        <img src="images/ts3.jpg" alt="">
+        <img src="images/ts4.jpg" alt="">
+        <img src="images/favlogo.png" alt="">
+        <img src="images/ts5.jpg" alt="">
+        <img src="images/ts6.jpg" alt="">
+        <img src="images/ts7.jpg" alt="">
+        <img src="images/ts8.jpg" alt="">
+        </div>
+    </div>
+    
+    </section>
+    </div>
+<footer class="footer" >
+    <div class="contact" id="contact">
+        <div class="contact-btn inner">
+            <a href="#" class="b700"><span>기업 및 단체구매안내</span></a>
+            <a href="#" class="b700"><span>가맹상담신청</span></a>
+            <a href="#" class="b700"><span>사이버신문고</span></a>
+        </div>
+        <a href="#" class="shop"><img src="images/icon-shop.png" alt=""></a>
+        <a href="#" class="top"><img src="images/icon-top.png" alt=""></a>
+    </div>
+    <div class="contact-menu inner">
+        <div class="address">
+        <h4>Address</h4>
+        <p class="tc2">서울특별시 중구 을지로 170, 8층(을지로4가, 을지트윈타워)투썸플레이스(주)</p>
+        </div>
+        <div class="contact-info">
+            <h4>Customer Center</h4>
+            <p  class="center tc2">고객센터 : 1577-4410</p>
+            <p class="fax tc2">팩스 : 02-2058-6777</p>
+        </div>
+    </div>
+    <div class="footer-menu inner">
+        <ul class="footer-menu-list b600 inner">
+            <li><a href="#"> 이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">위치기반서비스</a></li>
+            <li><a href="#">이용약관 이메일</a></li>
+            <li><a href="#">무단수집거부</a></li>
+            <li><a href="#">법적고지</a></li>
+            <li><a href="#">사업자정보확인</a></li>
+        </ul>
+        <ul class="footer-info-list inner">
+             <li><a href="#">대표이사 : 이영상</a></li>
+             <li><a href="#"> 인정보보호책임자 : 장재호 </a></li>
+             <li><a href="#">사업자등록번호 : 404-86-01054</a></li>
+             <li><a href="#">통신판매업종신고증 : 제 2018-서울중구-0353호</a></li>
+             <li><a href="#">대표이메일 : helpmaster@twosome.co.kr</a></li>
+        </ul>
+    
+        <p class="copyright inner">Copyright ⓒ 2021 A TWOSOME PLACE Co., LTD. All Rights Reserved.</p>
+    
+        <div class="socialmedia-icon">
+            <div class='grow-container'><a href="#" class="to-white circle-button"><i class="fa-brands fa-facebook"></i></a></div>
+            <div class='grow-container'><a href="#" class="to-white circle-button"><i class="fa-brands fa-instagram"></i></a></div>
+            <div class='grow-container'> <a href="#"class="to-white circle-button"><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
